@@ -10,4 +10,4 @@ Prosty program w C:
 main(){
   printf("hello world");
 }
-`
+
