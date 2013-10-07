@@ -13,4 +13,4 @@ main(){
   printf("hello world");
 } 
 
-[podstawy markdown]: http://daringfireball.net/projects/markdown/basic
+[podstawy markdown]: http://daringfireball.net/projects/markdown/
