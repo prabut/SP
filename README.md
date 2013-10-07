@@ -9,5 +9,5 @@ Prosty program w C:
 ```c
 main(){
   printf("hello world");
-}
+} 
 
