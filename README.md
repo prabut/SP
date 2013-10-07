@@ -1,3 +1,7 @@
 ## Zadania z środowiska programisty
 
-Ala ma kota
+Aby zmienić hasło należy na terminalu wpisać:
+
+```sh
+passwd
+```
