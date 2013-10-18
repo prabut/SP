@@ -73,6 +73,22 @@ tree
 
 5\. Przejdź do katalogu zrealizowane i zmień nazwę pliku rachunki.txt na wykonano.txt.
 ```sh
+mv rachunki.txt wykonano.txt
+└── temp
+    ├── dom
+    │   └── wazne-sprawy
+    │       └── rachunki.txt
+    ├── nauka
+    │   ├── c
+    │   ├── logo
+    │   └── pascal
+    └── praca
+        ├── dokumenty
+        └── zlecenia
+            ├── niezrealizowane
+            └── zrealizowane
+                └── wykonano.txt
+
 ```
 
 
