@@ -182,12 +182,6 @@ ni po wt śr cz pi so  ni po wt śr cz pi so  ni po wt śr cz pi so
 ```
 I jeszcze raz na wrzesień i październik oraz na październik i listopad 2009 r z miesiącami obok siebie (cal, cut?):
 
-     październik             listopad
-ni po wt śr cz pi so   ni po wt śr cz pi so
-             1  2  3    1  2  3  4  5  6  7
- 4  5  6  7  8  9 10    8  9 10 11 12 13 14
-11 12 13 14 15 16 17   15 16 17 18 19 20 21
-...                    ...
 ```sh
 ```
 11\. Jaki był dzień tygodnia 25 maja 1975 r. (cal i date)
