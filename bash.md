@@ -100,13 +100,41 @@ Polecenia: split, cat, diff
 ```sh
 cd praca/zlecenia/zrealizowane/
 cat >wykonano.txt
-12345678901
+0123456789
 ^C
 split -b 5 wykonano.txt
+ls -l
+razem 16
+-rw-rw-r-- 1 tprabucki tprabucki 11 paź 20 22:06 wykonano.txt
+-rw-rw-r-- 1 tprabucki tprabucki  5 paź 20 22:07 xaa
+-rw-rw-r-- 1 tprabucki tprabucki  5 paź 20 22:07 xab
+-rw-rw-r-- 1 tprabucki tprabucki  1 paź 20 22:07 xac
 
 ```
 7\. Będąc w katalogu logo skopiuj powyżej otrzymane 3 pliki do katalogu dokumenty.
 ```sh
+cp ../../../temp/praca/zlecenia/zrealizowane/x* ../../../temp/nauka/logo
+.
+├── dom
+│   └── wazne_sprawy
+│       └── rachunki.txt
+├── nauka
+│   ├── c
+│   ├── logo
+│   │   ├── xaa
+│   │   ├── xab
+│   │   └── xac
+│   └── pascal
+└── praca
+    ├── dokumenty
+    └── zlecenia
+        ├── niezrealizowane
+        └── zrealizowane
+            ├── wykonano.txt
+            ├── xaa
+            ├── xab
+            └── xac
+
 ```
 8\. Będąc w katalogu dokumenty połącz skopiowane 3 pliki w plik odtworzono.txt, tak aby otrzymać plik o zawartości identycznej z wykonano.txt. 
     Następnie plik odtworzono.txt skopiuj do katalogu wazne-sprawy.
