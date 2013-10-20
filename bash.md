@@ -96,7 +96,8 @@ mv rachunki.txt wykonano.txt
 Polecenia: split, cat, diff
 
 
-6\. Utwórz plik wykonano.txt wielkości 11 bajtów, następnie podziel go pliki wielkości 5 bajtów. W ten sposób otrzymasz 3 pliki. (split)
+6\. Utwórz plik wykonano.txt wielkości 11 bajtów, następnie podziel go pliki wielkości 5 bajtów. 
+W ten sposób otrzymasz 3 pliki. (split)
 ```sh
 cd praca/zlecenia/zrealizowane/
 cat >wykonano.txt
@@ -113,7 +114,7 @@ razem 16
 ```
 7\. Będąc w katalogu logo skopiuj powyżej otrzymane 3 pliki do katalogu dokumenty.
 ```sh
-cp ../../../temp/praca/zlecenia/zrealizowane/x* ../../../temp/nauka/logo
+cp ../../../temp/praca/zlecenia/zrealizowane/x* ../../../temp/praca/dokumenty
 .
 ├── dom
 │   └── wazne_sprawy
@@ -121,12 +122,12 @@ cp ../../../temp/praca/zlecenia/zrealizowane/x* ../../../temp/nauka/logo
 ├── nauka
 │   ├── c
 │   ├── logo
-│   │   ├── xaa
-│   │   ├── xab
-│   │   └── xac
 │   └── pascal
 └── praca
     ├── dokumenty
+    │   ├── xaa
+    │   ├── xab
+    │   └── xac
     └── zlecenia
         ├── niezrealizowane
         └── zrealizowane
