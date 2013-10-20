@@ -139,10 +139,40 @@ cp ../../../temp/praca/zlecenia/zrealizowane/x* ../../../temp/praca/dokumenty
 ```
 8\. Będąc w katalogu dokumenty połącz skopiowane 3 pliki w plik odtworzono.txt, tak aby otrzymać plik o zawartości identycznej z wykonano.txt. 
     Następnie plik odtworzono.txt skopiuj do katalogu wazne-sprawy.
-```shcal 
+```sh
+cd praca/dokumenty/
+cat xaa xab xac >odtworzono.txt
+tree
+.
+├── dom
+│   └── wazne_sprawy
+│       └── rachunki.txt
+├── nauka
+│   ├── c
+│   ├── logo
+│   └── pascal
+└── praca
+    ├── dokumenty
+    │   ├── odtworzono.txt
+    │   ├── xaa
+    │   ├── xab
+    │   └── xac
+    └── zlecenia
+        ├── niezrealizowane
+        └── zrealizowane
+            ├── wykonano.txt
+            ├── xaa
+            ├── xab
+            └── xac
+
 ```
 9\. Będąc w katalogu wazne-sprawy sprawdź, czy są jakieś różnice w zawartości plików wykonano.txt i odtworzono.txt.
 ```sh
+diff -s ../../../temp/praca/dokumenty/odtworzono.txt ../../../temp/praca/zlecenia/zrealizowane/wykonano.txt
+
+Pliki ../../../temp/praca/dokumenty/odtworzono.txt i ../../../temp/praca/zlecenia/zrealizowane/wykonano.txt 
+są identyczne
+
 ```
 10\. Wyświetl kalendarz na październik 2009 r. (cal)
 ```sh
@@ -213,10 +243,6 @@ ni po wt śr cz pi so  ni po wt śr cz pi so  ni po wt śr cz pi so
 25 26 27 28 29 30 31  29 30                 27 28 29 30 31        
                                                                   
 
-```
-I jeszcze raz na wrzesień i październik oraz na październik i listopad 2009 r z miesiącami obok siebie (cal, cut?):
-
-```sh
 ```
 11\. Jaki był dzień tygodnia 25 maja 1975 r. (cal i date)
 ```sh
