@@ -98,6 +98,11 @@ Polecenia: split, cat, diff
 
 6\. Utwórz plik wykonano.txt wielkości 11 bajtów, następnie podziel go pliki wielkości 5 bajtów. W ten sposób otrzymasz 3 pliki. (split)
 ```sh
+cd praca/zlecenia/zrealizowane/
+cat >wykonano.txt
+12345678901
+^C
+split -b 5 wykonano.txt
 
 ```
 7\. Będąc w katalogu logo skopiuj powyżej otrzymane 3 pliki do katalogu dokumenty.
