@@ -241,9 +241,33 @@ ni po wt śr cz pi so  ni po wt śr cz pi so  ni po wt śr cz pi so
 11 12 13 14 15 16 17  15 16 17 18 19 20 21  13 14 15 16 17 18 19  
 18 19 20 21 22 23 24  22 23 24 25 26 27 28  20 21 22 23 24 25 26  
 25 26 27 28 29 30 31  29 30                 27 28 29 30 31        
-                                                                  
-
 ```
+
+I jeszcze raz na wrzesień i październik oraz na październik i listopad 2009 r z miesiącami obok siebie (cal, cut?):
+```sh
+ cal -3 10 2009 | cut -c 1-43
+ 
+   Wrzesień 2009        Październik 2009 
+ni po wt śr cz pi so  ni po wt śr cz pi s
+       1  2  3  4  5               1  2  3 
+ 6  7  8  9 10 11 12   4  5  6  7  8  9 10 
+13 14 15 16 17 18 19  11 12 13 14 15 16 17 
+20 21 22 23 24 25 26  18 19 20 21 22 23 24 
+27 28 29 30           25 26 27 28 29 30 31
+
+
+cal -3 11 2009 | cut -c 1-43
+
+ 
+    Październik 2009       Listopad  2009      
+ni po wt śr cz pi so  ni po wt śr cz pi s
+             1  2  3   1  2  3  4  5  6  7 
+ 4  5  6  7  8  9 10   8  9 10 11 12 13 14 
+11 12 13 14 15 16 17  15 16 17 18 19 20 21 
+18 19 20 21 22 23 24  22 23 24 25 26 27 28 
+25 26 27 28 29 30 31  29 30           
+```
+
 11\. Jaki był dzień tygodnia 25 maja 1975 r. (cal i date)
 ```sh
 date -d 1975-05-25 +%A
