@@ -249,5 +249,3 @@ ni po wt śr cz pi so  ni po wt śr cz pi so  ni po wt śr cz pi so
 date -d 1975-05-25 +%A
 niedziela
 ```
-
-## Rozwiązania z bash'a Laboratorium 2
