@@ -59,8 +59,25 @@ ls -l
 
 ```
 
-5\. Będąc w katalogu temp przenieś katalog wazne-sprawy do katalogu praca.
+5\. Będąc w katalogu *temp* przenieś katalog *wazne-sprawy* do katalogu *praca*.
 ```sh
+mv dom/wazne-sprawy praca
+tree
+.
+├── dom
+├── nauka
+│   ├── c
+│   ├── logo
+│   └── pascal
+├── praca
+│   ├── dokumenty
+│   ├── wazne-sprawy
+│   │   └── rachunki.txt
+│   └── zlecenia
+│       ├── niezrealizowane
+│       └── zrealizowane
+│           └── wykonano.txt
+└── wykonano.txt
 
 ```
 
