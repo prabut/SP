@@ -53,8 +53,10 @@ int main()
 4\. Plikowi *program.c* nadaj następujące uprawnienia: właściciel – czytanie, pisanie, grupa – czytanie, 
     pozostali użytkownicy: brak uprawnień. (chmod)
 ```sh
-chmod 640 kwad_sumy.c 
+chmod 640 kwad_sumy.c
+
 ls -l
+
 -rw-r----- 1 tprabucki studinf 556 paź 21 15:33 kwad_sumy.c
 
 ```
@@ -84,6 +86,7 @@ tree
 6\. Zarchiwizuj cały katalog temp. (zip i tar)
 ```sh
 zip -r temp.zip temp
+
 tar -cf temp.tar temp
 
 ```
@@ -91,6 +94,7 @@ tar -cf temp.tar temp
 7\. Usuń katalog temp.
 ```sh
 rm -r temp
+
 tree
 .
 ├── kwad_sumy.c
@@ -100,7 +104,9 @@ tree
 
 8\. Odtwórz z archiwum katalog temp. (unzip i tar)
 ```sh
+unzip  temp.zip
 
+tar -xf temp.tar
 ```
 
 9\. Posprzątaj na swoim koncie.
