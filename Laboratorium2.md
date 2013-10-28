@@ -83,3 +83,7 @@ ls -l
 ```sh
 
 ```
+10\.Wyświtlanie zawartości plkiu .c w zakresie kilku linijek ze środka:
+```sh
+head -n2 kwad_sumy.c | tail -n1
+```
