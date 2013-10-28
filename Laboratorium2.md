@@ -87,3 +87,17 @@ ls -l
 ```sh
 head -n2 kwad_sumy.c | tail -n1
 ```
+11\.
+
+12\.Wyświetlenie zawartości *plik.c*, które niespelniają założenia:
+```sh
+grep -v printf  kwad_sumy.c
+```
+13\.Wyświetlenie wyrazów kończących sie na np. *"tf"*:
+```sh
+egrep  'tf\>' kwad_sumy.c 
+
+		 printf("\n\nPodaj liczbę n: ");
+		 printf("Suma kwadratow liczby %d wynosi: %d\n\n",n,suma);
+
+```
