@@ -90,7 +90,12 @@ tar -cf temp.tar temp
 
 7\. Usuń katalog temp.
 ```sh
-
+rm -r temp
+tree
+.
+├── kwad_sumy.c
+├── temp.tar
+└── temp.zip
 ```
 
 8\. Odtwórz z archiwum katalog temp. (unzip i tar)
