@@ -83,6 +83,8 @@ tree
 
 6\. Zarchiwizuj cały katalog temp. (zip i tar)
 ```sh
+zip -r temp.zip temp
+tar -cf temp.tar temp
 
 ```
 
