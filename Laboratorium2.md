@@ -117,9 +117,14 @@ rm temp.tar temp.zip
 ```sh
 head -n2 kwad_sumy.c | tail -n1
 ```
-11\.
+11\.Wyświetlenie odwróconej zawartości fragmentu *pliku.c*
+```sh
+tac kwad_sumy.c |head -n7 kwad_sumy.c  | tail -n3 | tac
 
+		int main()
+#include <stdio.h>
 
+```
 
 12\.Wyświetlenie zawartości *plik.c*, które niespelniają założenia:
 ```sh
