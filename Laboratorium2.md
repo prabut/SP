@@ -53,6 +53,9 @@ int main()
 4\. Plikowi program.c nadaj następujące uprawnienia: właściciel – czytanie, pisanie, grupa – czytanie, 
     pozostali użytkownicy: brak uprawnień. (chmod)
 ```sh
+chmod 640 kwad_sumy.c 
+ls -l
+-rw-r----- 1 tprabucki studinf 556 paź 21 15:33 kwad_sumy.c
 
 ```
 
