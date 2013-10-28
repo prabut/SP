@@ -45,7 +45,9 @@ tail -n 4 kwad_sumy.c
 
 3\. W pliku program.c znajdź wszystkie wiersze z wystąpieniem słowa „main”. (grep)
 ```sh
+grep main kwad_sumy.c
 
+int main()
 ```
 
 4\. Plikowi program.c nadaj następujące uprawnienia: właściciel – czytanie, pisanie, grupa – czytanie, 
