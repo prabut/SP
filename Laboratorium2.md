@@ -1,6 +1,6 @@
 ## Laboratorium2
 
-W katalogu c utwórz plik program.c zawierający co najmniej 10 linii kodu napisanego w języku C. (Sam kod należy wyszukać i pobrać z sieci.)
+W katalogu c utwórz plik *program.c* zawierający co najmniej 10 linii kodu napisanego w języku C. (Sam kod należy wyszukać i pobrać z sieci.)
 
 ```sh
 /**********************************************************************************************
@@ -23,7 +23,7 @@ W katalogu c utwórz plik program.c zawierający co najmniej 10 linii kodu napis
 ```
 
 
-1\. Wyświetl na ekran 2 pierwsze wiersze pliku program.c. (head)
+1\. Wyświetl na ekran 2 pierwsze wiersze pliku *program.c*. (head)
 ```sh
 head -n 2 kwad_sumy.c 
 
@@ -32,7 +32,7 @@ head -n 2 kwad_sumy.c
 
 ```
 
-2\. Wyświetl na ekran 4 ostatnie wiersze pliku program.c. (head, tail)
+2\. Wyświetl na ekran 4 ostatnie wiersze pliku *program.c*. (head, tail)
 ```sh
 tail -n 4 kwad_sumy.c
 
@@ -43,14 +43,14 @@ tail -n 4 kwad_sumy.c
 		
 ```
 
-3\. W pliku program.c znajdź wszystkie wiersze z wystąpieniem słowa „main”. (grep)
+3\. W pliku *program.c* znajdź wszystkie wiersze z wystąpieniem słowa „main”. (grep)
 ```sh
 grep main kwad_sumy.c
 
 int main()
 ```
 
-4\. Plikowi program.c nadaj następujące uprawnienia: właściciel – czytanie, pisanie, grupa – czytanie, 
+4\. Plikowi *program.c* nadaj następujące uprawnienia: właściciel – czytanie, pisanie, grupa – czytanie, 
     pozostali użytkownicy: brak uprawnień. (chmod)
 ```sh
 chmod 640 kwad_sumy.c 
@@ -83,7 +83,7 @@ ls -l
 ```sh
 
 ```
-10\.Wyświtlanie zawartości plkiu .c w zakresie kilku linijek ze środka:
+10\.Wyświtlanie zawartości *pliku.c* w zakresie, który podamy :
 ```sh
 head -n2 kwad_sumy.c | tail -n1
 ```
