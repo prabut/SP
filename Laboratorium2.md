@@ -111,13 +111,15 @@ tar -xf temp.tar
 
 9\. Posprzątaj na swoim koncie.
 ```sh
-
+rm temp.tar temp.zip
 ```
 10\.Wyświtlanie zawartości *pliku.c* w zakresie, który podamy :
 ```sh
 head -n2 kwad_sumy.c | tail -n1
 ```
 11\.
+
+
 
 12\.Wyświetlenie zawartości *plik.c*, które niespelniają założenia:
 ```sh
