@@ -19,14 +19,27 @@ cat tekst1.txt - tekst2.txt > tekst3.txt
 ```
 3\. Wyświetl po 5 pierwszych linii wszystkich plików w swoim katalogu domowym w taki sposób, aby nie były wyświetlane ich nazwy.
 
+```sh
+head $HOME/* -n 5
+```
+
 4\. Wyświetl linie o numerach 3, 4 i 5 z pliku */etc/passwd*.
+```sh
+head -n 5 /etc/passwd |tail -n 3
+```
 
 5\. Wyświetl linie o numerach 7, 6 i 5 od końca pliku */etc/passwd*.
+```sh
+tail -n 7 /etc/passwd | head -n 3 
+```
 
 6\. Wyświetl zawartość pliku */etc/passwd* w jednej linii.
 
+
 7\. Za pomocą *filtru tr* wykonaj modyfikację pliku *plik.txt*, polegającą na umieszczeniu każdego słowa w osobnej linii.
 
+
 8\. Zlicz wszystkie pliki znajdujące się w katalogu */etc* i jego podkatalogach.
+
 
 9\. Napisać polecenie zliczające ilość znaków z pierwszych trzech linii pliku */etc/passwd*.
