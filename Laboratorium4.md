@@ -35,23 +35,44 @@ ls -l > lsout.txt
 ```
 Zapisanie do pliku *lsout.txt* szczególowej listy plików z aktualnego katalogu.
 
-
 ```sh
 ls -la >> lsout.txt
 ```
 Dopisanie do pliku *lsout.txt* szczególowej listy plików, lacznie z plikami zaczynajacymi 
 sie od "." (ukrytymi) z aktualnego katalogu.
-
-
+```sh
 ps >> psout.txt
+```
+```sh
 free -m >> ~/wynik
+```
+```sh
 kill -1 1234 > killout.txt 2>killerr.txt
+```
+```sh
 kill -1 1234 > killout.txt 2>&1
+```
+```sh
 kill -1 1234 > /dev/null 2>&1
+```
+```sh
 sort psout.txt > pssort.txt
+```
+```sh
 ps | sort > pssort.txt
+```
+```sh
 cat lsout.txt | sort > lssort.txt
+```
+```sh
 who | sort | more
+```
+```sh
 who | sort | less
+```
+```sh
 find -type f | wc
+```
+```sh
 find -type f -print0 | wc --files0-from=-
+```
