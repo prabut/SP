@@ -76,18 +76,28 @@ Sortowanie procesow w pliku *psout.txt* i zapisanie wyniku w pliku *pssort.txt*
 ```sh
 ps | sort > pssort.txt
 ```
+Sortowanie procesow i zapisanie do pliku *pssort.txt*
+
 ```sh
 cat lsout.txt | sort > lssort.txt
 ```
+Wypisanie pliku *lsout.txt* posortowanie i zapisanie do pliku *lssort.txt*
+
 ```sh
 who | sort | more
 ```
+Posortowanie listy zalogowanych uzytkownikow ze stronami.
+
 ```sh
 who | sort | less
 ```
+Posortowanie listy zalogowanych uzytkownikow ze stronami.
+
 ```sh
 find -type f | wc
 ```
+
+
 ```sh
 find -type f -print0 | wc --files0-from=-
 ```
