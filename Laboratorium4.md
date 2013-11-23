@@ -30,8 +30,15 @@ find -type f -printf "%U\n" | sort | uniq -c | sort
 find -type f -printf "%m\n" | sort | uniq -c
 ```
 8\. Czy potrafisz odpowiedzieć jaki będzie efekt wykonania poniższych poleceń?
+```sh
 ls -l > lsout.txt
+Zapisanie do pliku *lsout.txt* szczególowej listy plików z aktualnego katalogu.
+```
+
+```sh
 ls -la >> lsout.txt
+
+```
 ps >> psout.txt
 free -m >> ~/wynik
 kill -1 1234 > killout.txt 2>killerr.txt
@@ -43,4 +50,4 @@ cat lsout.txt | sort > lssort.txt
 who | sort | more
 who | sort | less
 find -type f | wc
-find -type f -print0 | wc --files0-from=-   # 14
+find -type f -print0 | wc --files0-from=-
