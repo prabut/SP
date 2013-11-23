@@ -21,3 +21,7 @@ cat /etc/passwd | sort -t : -k 3 -nr
 ```sh
 cat /etc/passwd | sort -t : -k 4 -nr -k 3 -nr
 ```
+6\. Podaj liczbę plików każdego użytkownika
+```sh
+find -type f -printf "%U\n" | sort | uniq -c | sort
+```
