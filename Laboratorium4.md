@@ -40,15 +40,24 @@ ls -la >> lsout.txt
 ```
 Dopisanie do pliku *lsout.txt* szczególowej listy plików, lacznie z plikami zaczynajacymi 
 sie od "." (ukrytymi) z aktualnego katalogu.
+
 ```sh
 ps >> psout.txt
 ```
+Dopisuje do pliku *psout.txt* opis biezacych procesow.
+
 ```sh
 free -m >> ~/wynik
 ```
+Dopisanie do pliku znajdującego się w lokalizacji *~/wynik* informacji o wolnej i wykorzystanej 
+pamieci podanej w megabajtach.
+
 ```sh
 kill -1 1234 > killout.txt 2>killerr.txt
 ```
+Zakonczenie procesu o id 1234 oraz przakazanie komunikatow informacyjnych do pliku *killout.txt*, 
+natomiast bledy zapisz do pliku *killerr.txt*
+
 ```sh
 kill -1 1234 > killout.txt 2>&1
 ```
