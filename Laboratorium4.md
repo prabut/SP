@@ -32,13 +32,17 @@ find -type f -printf "%m\n" | sort | uniq -c
 8\. Czy potrafisz odpowiedzieć jaki będzie efekt wykonania poniższych poleceń?
 ```sh
 ls -l > lsout.txt
-Zapisanie do pliku *lsout.txt* szczególowej listy plików z aktualnego katalogu.
 ```
+Zapisanie do pliku *lsout.txt* szczególowej listy plików z aktualnego katalogu.
+
 
 ```sh
 ls -la >> lsout.txt
-
 ```
+Dopisanie do pliku *lsout.txt* szczególowej listy plików, lacznie z plikami zaczynajacymi 
+sie od "." (ukrytymi) z aktualnego katalogu.
+
+
 ps >> psout.txt
 free -m >> ~/wynik
 kill -1 1234 > killout.txt 2>killerr.txt
