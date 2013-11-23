@@ -97,7 +97,6 @@ Posortowanie listy zalogowanych uzytkownikow ze stronami.
 find -type f | wc
 ```
 
-
 ```sh
 find -type f -print0 | wc --files0-from=-
 ```
