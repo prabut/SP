@@ -39,7 +39,9 @@ cat /etc/passwd |tr "\n" " "
 ```
 
 7\. Za pomocą *filtru tr* wykonaj modyfikację pliku *plik.txt*, polegającą na umieszczeniu każdego słowa w osobnej linii.
-
+```sh
+cat tekst1 | tr -s [:space:] "\n"
+```
 
 8\. Zlicz wszystkie pliki znajdujące się w katalogu */etc* i jego podkatalogach.
 ```sh
