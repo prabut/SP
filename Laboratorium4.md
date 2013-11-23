@@ -25,3 +25,7 @@ cat /etc/passwd | sort -t : -k 4 -nr -k 3 -nr
 ```sh
 find -type f -printf "%U\n" | sort | uniq -c | sort
 ```
+7\. Sporządź statystykę praw dostępu (dla każdego z praw dostępu podaj, ile razy zostało ono przydzielone)
+```sh
+find -type f -printf "%m\n" | sort | uniq -c
+```
