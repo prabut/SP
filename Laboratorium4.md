@@ -61,12 +61,18 @@ natomiast bledy zapisz do pliku *killerr.txt*
 ```sh
 kill -1 1234 > killout.txt 2>&1
 ```
+Zakonczenie procesu o id 1234 komunikaty informacyjne zapisz do pliku *killout.txt* a bledy wypisz na ekran.
+
 ```sh
 kill -1 1234 > /dev/null 2>&1
 ```
+Zakonczenie procesu o id 1234 komunikaty informacyjne zapisz w lokalizacji */dev/null* a bledy wypisz na ekran.
+
 ```sh
 sort psout.txt > pssort.txt
 ```
+Sortowanie procesow w pliku *psout.txt* i zapisanie wyniku w pliku *pssort.txt*
+
 ```sh
 ps | sort > pssort.txt
 ```
