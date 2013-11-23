@@ -30,17 +30,17 @@ find -type f -printf "%U\n" | sort | uniq -c | sort
 find -type f -printf "%m\n" | sort | uniq -c
 ```
 8\. Czy potrafisz odpowiedzieć jaki będzie efekt wykonania poniższych poleceń?
-ls -l > lsout.txt                           #  1
-ls -la >> lsout.txt                         #  2
-ps >> psout.txt                             #  3
-free -m >> ~/wynik                          #  4
-kill -1 1234 > killout.txt 2>killerr.txt    #  5
-kill -1 1234 > killout.txt 2>&1             #  6
-kill -1 1234 > /dev/null 2>&1               #  7
-sort psout.txt > pssort.txt                 #  8
-ps | sort > pssort.txt                      #  9
-cat lsout.txt | sort > lssort.txt           # 10
-who | sort | more                           # 11
-who | sort | less                           # 12
-find -type f | wc                           # 13
+ls -l > lsout.txt
+ls -la >> lsout.txt
+ps >> psout.txt
+free -m >> ~/wynik
+kill -1 1234 > killout.txt 2>killerr.txt
+kill -1 1234 > killout.txt 2>&1
+kill -1 1234 > /dev/null 2>&1
+sort psout.txt > pssort.txt
+ps | sort > pssort.txt
+cat lsout.txt | sort > lssort.txt
+who | sort | more
+who | sort | less
+find -type f | wc
 find -type f -print0 | wc --files0-from=-   # 14
