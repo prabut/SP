@@ -11,3 +11,7 @@ find ~/ -maxdepth 1 -type f -mtime -10
 ```sh
 find / -name *conf* -type f 2> /dev/null
 ```
+3\. Znajdź w swoim katalogu *domowym* wszystkie pliki, które nie były używane w ciągu ostatnich 20 dni.
+```sh
+find ~ -mtime -20 -type f
+```
