@@ -15,3 +15,16 @@ find / -name *conf* -type f 2> /dev/null
 ```sh
 find ~ -mtime -20 -type f
 ```
+4\. Znajdź w katalogu */etc* wszystkie niepuste podkatalogi i pliki o nazwach zaczynających się na literę *„a”*.
+```sh
+
+```
+5\. Z bieżącego katalogu usuń pliki, których nazwa zaczyna się na literę *„x”* i zawiera dokładnie trzy znaki.
+```sh
+
+```
+6\. Skonstruuj polecenie tworzące katalog, którego nazwą będzie aktualna (w momencie wywołania) systemowa data 
+w formacie rrrr-mm-dd.
+```sh
+mkdir `date +%Y-%m-%d`
+```
