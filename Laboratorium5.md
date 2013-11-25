@@ -36,5 +36,5 @@ ls: nie ma dostępu do x*: Nie ma takiego pliku ani katalogu
 6\. Skonstruuj polecenie tworzące katalog, którego nazwą będzie aktualna (w momencie wywołania) systemowa data 
 w formacie rrrr-mm-dd.
 ```sh
-mkdir `date +%Y-%m-%d`
+mkdir $(date +%Y-%m-%d)
 ```
