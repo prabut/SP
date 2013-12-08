@@ -17,7 +17,7 @@
 
 4\. Policz, ilu użytkowników systemu używa powłoki bash (zgodnie z zapisami w pliku */etc/passwd*).
 ```sh
-
+grep -c bash /etc/passwd
 ```
 
 5\. Znajdź wiersze zawierające liczby rzymskie w pliku *plik.txt*.
