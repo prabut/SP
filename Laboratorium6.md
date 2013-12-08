@@ -12,7 +12,7 @@ grep ^[0-9] pl*
 
 3\. Znajdź pliki, zawierające wiersz w którym na 9 pozycji występuje litera *r*.
 ```sh
-
+grep -E -r '^.{8}r.*'
 ```
 
 4\. Policz, ilu użytkowników systemu używa powłoki bash (zgodnie z zapisami w pliku */etc/passwd*).
