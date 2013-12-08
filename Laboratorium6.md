@@ -22,5 +22,5 @@ grep -c bash /etc/passwd
 
 5\. Znajdź wiersze zawierające liczby rzymskie w pliku *plik.txt*.
 ```sh
-
+grep [IVXLCDM] plik.txt
 ```
