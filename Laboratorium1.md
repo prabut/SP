@@ -18,7 +18,7 @@ tree
         └── zrealizowane
 
 ```
-2\. Przejdź do katalogu dom i utwórz katalog wazne-sprawy.
+2\. Przejdź do katalogu *dom* i utwórz katalog *wazne-sprawy*.
 
 ```sh
 mkdir dom/wazne-sprawy
@@ -37,7 +37,7 @@ tree
         └── zrealizowane
 ```
 
-3\. Wejdź do katalogu wazne-sprawy i utwórz tam pusty plik rachunki.txt.
+3\. Wejdź do katalogu *wazne-sprawy* i utwórz tam pusty plik *rachunki.txt*.
 
 ```sh
 cd dom/wazne-sprawy
@@ -49,7 +49,7 @@ tree
     └── rachunki.txt
 
 ```
-4\. Będąc w katalogu wazne-sprawy skopiuj plik rachunki.txt do katalogu zrealizowane.
+4\. Będąc w katalogu *wazne-sprawy* skopiuj plik *rachunki.txt* do katalogu *zrealizowane*.
 ```sh
 cp rachunki.txt ../../../temp/praca/zlecenia/zrealizowane/
 cd ../..
@@ -71,7 +71,7 @@ tree
 
 ```
 
-5\. Przejdź do katalogu zrealizowane i zmień nazwę pliku rachunki.txt na wykonano.txt.
+5\. Przejdź do katalogu zrealizowane i zmień nazwę pliku *rachunki.txt* na *wykonano.txt*.
 ```sh
 mv rachunki.txt wykonano.txt
 └── temp
@@ -93,10 +93,10 @@ mv rachunki.txt wykonano.txt
 
 
 
-Polecenia: split, cat, diff
+Polecenia: *split, cat, diff*
 
 
-6\. Utwórz plik wykonano.txt wielkości 11 bajtów, następnie podziel go pliki wielkości 5 bajtów. 
+6\. Utwórz plik *wykonano.txt* wielkości 11 bajtów, następnie podziel go pliki wielkości 5 bajtów. 
 W ten sposób otrzymasz 3 pliki. (split)
 ```sh
 cd praca/zlecenia/zrealizowane/
@@ -112,7 +112,7 @@ razem 16
 -rw-rw-r-- 1 tprabucki tprabucki  1 paź 20 22:07 xac
 
 ```
-7\. Będąc w katalogu logo skopiuj powyżej otrzymane 3 pliki do katalogu dokumenty.
+7\. Będąc w katalogu *logo* skopiuj powyżej otrzymane 3 pliki do katalogu *dokumenty*.
 ```sh
 cp ../../../temp/praca/zlecenia/zrealizowane/x* ../../../temp/praca/dokumenty
 .
@@ -137,8 +137,8 @@ cp ../../../temp/praca/zlecenia/zrealizowane/x* ../../../temp/praca/dokumenty
             └── xac
 
 ```
-8\. Będąc w katalogu dokumenty połącz skopiowane 3 pliki w plik odtworzono.txt, tak aby otrzymać plik o zawartości identycznej z wykonano.txt. 
-    Następnie plik odtworzono.txt skopiuj do katalogu wazne-sprawy.
+8\. Będąc w katalogu *dokumenty* połącz skopiowane 3 pliki w plik *odtworzono.txt*, tak aby otrzymać plik o zawartości identycznej z *wykonano.txt*. 
+    Następnie plik *odtworzono.txt* skopiuj do katalogu *wazne-sprawy*.
 ```sh
 cd praca/dokumenty/
 cat xaa xab xac >odtworzono.txt
@@ -166,7 +166,7 @@ tree
             └── xac
 
 ```
-9\. Będąc w katalogu wazne-sprawy sprawdź, czy są jakieś różnice w zawartości plików wykonano.txt i odtworzono.txt.
+9\. Będąc w katalogu *wazne-sprawy* sprawdź, czy są jakieś różnice w zawartości plików *wykonano.txt* i *odtworzono.txt*.
 ```sh
 diff -s ../../../temp/praca/dokumenty/odtworzono.txt ../../../temp/praca/zlecenia/zrealizowane/wykonano.txt
 
