@@ -7,7 +7,7 @@ grep "[:alnum:1]" plik.txt
 
 2\. Znajdź w plikach *pl** wiersze rozpoczynające się od cyfry.
 ```sh
-
+grep ^[0-9] pl*
 ```
 
 3\. Znajdź pliki, zawierające wiersz w którym na 9 pozycji występuje litera *r*.
