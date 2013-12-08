@@ -2,7 +2,7 @@
 
 1\. W pliku *plik.txt* znajdź wiersze zawierające co najmniej jeden znak.
 ```sh
-
+grep "[:alnum:1]" plik.txt
 ```
 
 2\. Znajdź w plikach *pl** wiersze rozpoczynające się od cyfry.
